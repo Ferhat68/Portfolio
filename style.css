@@ -1,0 +1,225 @@
+main {
+  width: auto;
+  border: rgb(122, 58, 58) 5px solid;
+  /*background-image: url(/Portfolyo/media/bg.jpg);*/
+  background-image: url(./bg1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+/*Bu bölümde tüm tüm section ve div ler  renklendirme yapıldı.*/
+section,
+div {
+  border-radius: 20%;
+  background: rgb(138, 44, 44);
+}
+/*Bu bölümde tüm resimler  ayarlama yapıldı.*/
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+/*Bu bölümde tüm tablolarda, zebra tipi renklendirme yapıldı ve hiyerarşik seçiciler kullanıldı .*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #d89162;
+}
+.caption {
+  text-decoration: underline;
+  background-color: rgb(102, 83, 83);
+}
+
+div > article {
+  background-color: rgb(129, 134, 134);
+}
+
+section > h2 {
+  background-color: cornflowerblue;
+}
+
+video + p {
+  font-size: 20px;
+  background-color: burlywood;
+}
+
+/*Bu bölümde pseudo yapıldı.*/
+article::first-letter {
+  color: #2196f3;
+  font-size: 30px;
+}
+
+article::first-line {
+  background-color: rgb(161, 98, 55);
+}
+
+/*Bu bölümde pozisyonlama yapıldı.*/
+#about {
+  position: absolute;
+  left: 490px;
+  top: 10px;
+  width: 300px;
+  height: 520px;
+
+  border: 8px solid;
+  padding: 25px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#imgme {
+  width: 200px;
+  height: 200px;
+  border: solid 3px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+
+#edu {
+  position: absolute;
+  margin-top: 550px;
+  margin-right: 555px;
+  width: 400px;
+  height: 460px;
+  border: 8px solid;
+  padding: 25px;
+  text-align: center;
+}
+#eduimg {
+  width: 200px;
+  height: 200px;
+  border: solid 3px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+#job {
+  width: 400px;
+  height: 460px;
+  border: 8px solid;
+  padding: 25px;
+  margin-top: 1100px;
+  text-align: center;
+}
+
+#kind {
+  position: absolute;
+  left: 870px;
+  top: 560px;
+  width: 400px;
+  height: 460px;
+  border: 8px solid;
+  padding: 25px;
+  text-align: center;
+}
+
+#imgkind {
+  width: 250px;
+  height: 200px;
+  border: solid 3px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#hoby {
+  position: absolute;
+  left: 870px;
+  top: 1105px;
+  width: 400px;
+  height: 460px;
+  border: 8px solid;
+  padding: 25px;
+  text-align: center;
+}
+
+#imghoby {
+  width: 250px;
+  height: 200px;
+  border: solid 3px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#video {
+  position: absolute;
+  left: 490px;
+  top: 700px;
+  width: 300px;
+  height: 300px;
+
+  border: 8px solid;
+  padding: 25px;
+  text-align: center;
+}
+
+#skill {
+  position: absolute;
+  left: 490px;
+  top: 1110px;
+  width: 300px;
+  height: 460px;
+
+  border: 8px solid;
+  padding: 25px;
+  text-align: justify;
+}
+
+/*Burada class ile beceri tablosu yapıldı.*/
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+  width: 90%;
+  background-color: #04aa6d;
+}
+
+.css {
+  width: 80%;
+  background-color: #2196f3;
+}
+
+.js {
+  width: 65%;
+  background-color: #f44336;
+}
+
+.php {
+  width: 60%;
+  background-color: #808080;
+}
